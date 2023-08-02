@@ -1,0 +1,765 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>seatsreservation</class>
+ <widget class="QDialog" name="seatsreservation">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>575</width>
+    <height>554</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Mabuhay Flights - SEAT SELECTION</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>20</y>
+     <width>571</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);
+font: 700 15pt &quot;Segoe UI&quot;;</string>
+   </property>
+   <property name="text">
+    <string>PLANE SEAT RESERVATION</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>70</y>
+     <width>231</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_2">
+    <item>
+     <widget class="QLabel" name="label_5">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(170, 255, 255);
+font: 700 15pt &quot;Segoe UI&quot;;</string>
+      </property>
+      <property name="text">
+       <string>D</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_6">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(170, 255, 255);
+font: 700 15pt &quot;Segoe UI&quot;;</string>
+      </property>
+      <property name="text">
+       <string>E</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_7">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(170, 255, 255);
+font: 700 15pt &quot;Segoe UI&quot;;</string>
+      </property>
+      <property name="text">
+       <string>F</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget_5">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>110</y>
+     <width>31</width>
+     <height>391</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_9">
+    <item>
+     <widget class="QLabel" name="label_18">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(170, 255, 255);
+font: 700 15pt &quot;Segoe UI&quot;;</string>
+      </property>
+      <property name="text">
+       <string>1</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_19">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(170, 255, 255);
+font: 700 15pt &quot;Segoe UI&quot;;</string>
+      </property>
+      <property name="text">
+       <string>2</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_20">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(170, 255, 255);
+font: 700 15pt &quot;Segoe UI&quot;;</string>
+      </property>
+      <property name="text">
+       <string>3</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_21">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(170, 255, 255);
+font: 700 15pt &quot;Segoe UI&quot;;</string>
+      </property>
+      <property name="text">
+       <string>4</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_22">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(170, 255, 255);
+font: 700 15pt &quot;Segoe UI&quot;;</string>
+      </property>
+      <property name="text">
+       <string>5</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget_7">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>450</y>
+     <width>231</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_6">
+    <item>
+     <widget class="QPushButton" name="d5">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 0, 127);</string>
+      </property>
+      <property name="text">
+       <string>D5</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="e5">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 0, 127);</string>
+      </property>
+      <property name="text">
+       <string>E5</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="f5">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 0, 127);</string>
+      </property>
+      <property name="text">
+       <string>F5</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget_8">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>110</y>
+     <width>31</width>
+     <height>391</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_13">
+    <item>
+     <widget class="QLabel" name="label_23">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(170, 255, 255);
+font: 700 15pt &quot;Segoe UI&quot;;</string>
+      </property>
+      <property name="text">
+       <string>1</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_24">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(170, 255, 255);
+font: 700 15pt &quot;Segoe UI&quot;;</string>
+      </property>
+      <property name="text">
+       <string>2</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_25">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(170, 255, 255);
+font: 700 15pt &quot;Segoe UI&quot;;</string>
+      </property>
+      <property name="text">
+       <string>3</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_26">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(170, 255, 255);
+font: 700 15pt &quot;Segoe UI&quot;;</string>
+      </property>
+      <property name="text">
+       <string>4</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_27">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(170, 255, 255);
+font: 700 15pt &quot;Segoe UI&quot;;</string>
+      </property>
+      <property name="text">
+       <string>5</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="selectflight">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>500</y>
+     <width>181</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 0, 127);
+font: 700 16pt &quot;Segoe UI&quot;;</string>
+   </property>
+   <property name="text">
+    <string>SELECT SEAT</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="selectflight_2">
+   <property name="geometry">
+    <rect>
+     <x>490</x>
+     <y>10</y>
+     <width>81</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 0, 127);
+font: 700 16pt &quot;Segoe UI&quot;;</string>
+   </property>
+   <property name="text">
+    <string>BACK</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget_9">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>370</y>
+     <width>231</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_10">
+    <item>
+     <widget class="QPushButton" name="d4">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 0, 127);</string>
+      </property>
+      <property name="text">
+       <string>D4</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="e4">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 0, 127);</string>
+      </property>
+      <property name="text">
+       <string>E4</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="f4">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 0, 127);</string>
+      </property>
+      <property name="text">
+       <string>F4</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget_10">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>290</y>
+     <width>231</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_20">
+    <item>
+     <widget class="QPushButton" name="d3">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 0, 127);</string>
+      </property>
+      <property name="text">
+       <string>D3</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="e3">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 0, 127);</string>
+      </property>
+      <property name="text">
+       <string>E3</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="f3">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 0, 127);</string>
+      </property>
+      <property name="text">
+       <string>F3</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget_11">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>210</y>
+     <width>231</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_21">
+    <item>
+     <widget class="QPushButton" name="d2">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 0, 127);</string>
+      </property>
+      <property name="text">
+       <string>D2</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="e2">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 0, 127);</string>
+      </property>
+      <property name="text">
+       <string>E2</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="f2">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 0, 127);</string>
+      </property>
+      <property name="text">
+       <string>F2</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget_12">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>130</y>
+     <width>231</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_22">
+    <item>
+     <widget class="QPushButton" name="d1">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 0, 127);</string>
+      </property>
+      <property name="text">
+       <string>D1</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="e1">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 0, 127);</string>
+      </property>
+      <property name="text">
+       <string>E1</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="f1">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 0, 127);</string>
+      </property>
+      <property name="text">
+       <string>F1</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>70</y>
+     <width>261</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QLabel" name="label_2">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(170, 255, 255);
+font: 700 15pt &quot;Segoe UI&quot;;</string>
+      </property>
+      <property name="text">
+       <string>A</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_3">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(170, 255, 255);
+font: 700 15pt &quot;Segoe UI&quot;;</string>
+      </property>
+      <property name="text">
+       <string>B</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_4">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(170, 255, 255);
+font: 700 15pt &quot;Segoe UI&quot;;</string>
+      </property>
+      <property name="text">
+       <string>C</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>450</y>
+     <width>261</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_4">
+    <item>
+     <widget class="QPushButton" name="a5">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 0, 127);</string>
+      </property>
+      <property name="text">
+       <string>A5</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="b5">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 0, 127);</string>
+      </property>
+      <property name="text">
+       <string>B5</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="c5">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 0, 127);</string>
+      </property>
+      <property name="text">
+       <string>C5</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>130</y>
+     <width>261</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_3">
+    <item>
+     <widget class="QPushButton" name="a1">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 0, 127);</string>
+      </property>
+      <property name="text">
+       <string>A1</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="b1">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 0, 127);</string>
+      </property>
+      <property name="text">
+       <string>B1</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="c1">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 0, 127);</string>
+      </property>
+      <property name="text">
+       <string>C1</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>210</y>
+     <width>261</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_7">
+    <item>
+     <widget class="QPushButton" name="a2">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 0, 127);</string>
+      </property>
+      <property name="text">
+       <string>A2</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="b2">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 0, 127);</string>
+      </property>
+      <property name="text">
+       <string>B2</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="c2">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 0, 127);</string>
+      </property>
+      <property name="text">
+       <string>C2</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>290</y>
+     <width>261</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_8">
+    <item>
+     <widget class="QPushButton" name="a3">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 0, 127);</string>
+      </property>
+      <property name="text">
+       <string>A3</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="b3">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 0, 127);</string>
+      </property>
+      <property name="text">
+       <string>B3</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="c3">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 0, 127);</string>
+      </property>
+      <property name="text">
+       <string>C3</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>370</y>
+     <width>261</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_9">
+    <item>
+     <widget class="QPushButton" name="a4">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 0, 127);</string>
+      </property>
+      <property name="text">
+       <string>A4</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="b4">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 0, 127);</string>
+      </property>
+      <property name="text">
+       <string>B4</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="c4">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 0, 127);</string>
+      </property>
+      <property name="text">
+       <string>C4</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

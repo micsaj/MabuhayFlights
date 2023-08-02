@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/pix">
+        <file>MABUHAY FLIGHTS/10.png</file>
+        <file>MABUHAY FLIGHTS/11.png</file>
+        <file>MABUHAY FLIGHTS/book.png</file>
+        <file>MABUHAY FLIGHTS/FLIGHTS.png</file>
+        <file>MABUHAY FLIGHTS/home.png</file>
+        <file>MABUHAY FLIGHTS/login.png</file>
+        <file>MABUHAY FLIGHTS/presentation kineme.png</file>
+        <file>MABUHAY FLIGHTS/REPORTS.png</file>
+        <file>MABUHAY FLIGHTS/RETURN.png</file>
+        <file>MABUHAY FLIGHTS/SEARCH.png</file>
+        <file>MABUHAY FLIGHTS/show.png</file>
+        <file>MABUHAY FLIGHTS/bg</file>
+    </qresource>
+</RCC>
